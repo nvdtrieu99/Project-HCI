@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/gray_200"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.tabs.TabLayout
+        app:tabTextAppearance="@style/TabLayoutTextStyle"
+        android:background="@color/white"
+        app:tabMode="fixed"
+        app:tabTextColor="@color/gray_700"
+        app:tabIndicatorColor="@color/magenta_1000"
+        app:tabSelectedTextColor="@color/magenta_1000"
+        android:id="@+id/tl_donhang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <com.google.android.material.tabs.TabItem
+            android:text="Đang đến"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <com.google.android.material.tabs.TabItem
+            android:text="Giỏ hàng"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </com.google.android.material.tabs.TabLayout>
+    <androidx.viewpager.widget.ViewPager
+        android:background="@color/white"
+        android:layout_marginBottom="4dp"
+        android:id="@+id/vp_donhang"
+        android:layout_below="@+id/tl_donhang"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+</RelativeLayout>

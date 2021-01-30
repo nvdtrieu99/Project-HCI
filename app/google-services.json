@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "860690796636",
+    "firebase_url": "https://quananvat-2021f.firebaseio.com",
+    "project_id": "quananvat-2021f",
+    "storage_bucket": "quananvat-2021f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:860690796636:android:90e1d1361d18f92eb0d699",
+        "android_client_info": {
+          "package_name": "com.example.quananvat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "860690796636-76k79pm8mdbsdnrm2831novu8d5cnh4n.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.quananvat",
+            "certificate_hash": "0c7a338ed04d89dd61a85e74af3cebec307fa9c1"
+          }
+        },
+        {
+          "client_id": "860690796636-4sc4rdl8u90336ci8ee0kvt3ln1b8s0q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCkHU8oBm4YWgzTS20NJjs72q5-9kn8dr8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "860690796636-4sc4rdl8u90336ci8ee0kvt3ln1b8s0q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

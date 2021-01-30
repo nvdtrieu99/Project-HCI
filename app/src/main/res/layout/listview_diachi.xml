@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="150dp">
+    <LinearLayout
+        android:layout_centerVertical="true"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/tv_ten"
+            android:textColor="@color/black"
+            android:text="Nguyễn Văn Dương Triều"
+            android:textSize="16sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:layout_marginTop="12dp"
+            android:id="@+id/tv_sdtkh"
+            android:textColor="@color/gray_700"
+            android:text="0123456789"
+            android:textSize="14sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/tv_diachicuthe"
+            android:textColor="@color/gray_700"
+            android:text="Số 20 Cao Hồng Lãnh"
+            android:textSize="14sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/tv_phuongxa"
+            android:textColor="@color/gray_700"
+            android:text="Phường Hòa Quý"
+            android:textSize="14sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/tv_quanhuyen"
+            android:textColor="@color/gray_700"
+            android:text="Quận Ngũ Hành Sơn"
+            android:textSize="14sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/tv_tinhthanhpho"
+            android:textColor="@color/gray_700"
+            android:text="Đà Nẵng"
+            android:textSize="14sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <TextView
+        android:layout_marginRight="10dp"
+        android:layout_alignParentRight="true"
+        android:text="[Mặc định]"
+        android:textColor="@color/magenta_1000"
+        android:id="@+id/tv_dcmacdinh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+</RelativeLayout>

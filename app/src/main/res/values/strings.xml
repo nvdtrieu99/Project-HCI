@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Happy Tea</string>
+    <string name="sanphammoi"><u>Nhấn để xem chi tiết</u></string>
+    <string name="xemthem"><u>Xem thêm</u></string>
+    <string name="thugon"><u>Thu gọn</u></string>
+    <string name="quenmatkhau"><u><i>Quên mật khẩu?</i></u></string>
+    <string name="dangky"><u><i>Đăng ký</i></u></string>
+    <string name="facebook_app_id">890698115091248</string>
+    <string name="fb_login_protocol_scheme">fb890698115091248</string>
+    <string name="thietlapdiachi"><u>Nhấn vào đây để thiết lập địa chỉ giao hàng.</u></string>
+    <string name="dangden"><i>Đang đến...</i></string>
+
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="progressBarWhite" parent="@style/Theme.AppCompat">
+        <item name="colorAccent">#fff</item>
+    </style>
+
+    <style name="progressBarMagenta" parent="@style/Theme.AppCompat">
+        <item name="colorAccent">@color/magenta_900</item>
+    </style>
+</resources>

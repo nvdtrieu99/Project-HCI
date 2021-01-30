@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TimKiemActivity">
+
+    <LinearLayout
+        android:id="@+id/ln_search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:background="@color/white"
+        android:orientation="horizontal">
+        <ImageButton
+            android:layout_gravity="center"
+            android:id="@+id/ib_back"
+            android:layout_marginLeft="8dp"
+            android:background="@drawable/ic_back"
+            android:layout_centerVertical="true"
+            android:layout_width="30dp"
+            android:layout_height="30dp"/>
+
+        <RelativeLayout
+            android:visibility="gone"
+            android:id="@+id/rl_timkiem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:background="@drawable/search_layout">
+
+
+            <ImageView
+                android:id="@+id/search_icon"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="8dp"
+                android:src="@drawable/ic_search" />
+
+            <EditText
+                android:focusable="true"
+                android:id="@+id/searchbar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@id/search_icon"
+                android:background="@android:color/transparent"
+                android:ems="10"
+                android:fontFamily="@font/roboto"
+                android:hint="Tìm kiếm..."
+                android:inputType="textPersonName"
+                android:padding="14dp"
+                android:textColor="#4a4a4a"
+                android:textColorHint="#4a4a4a"
+                android:textSize="16sp" />
+
+            <Button
+                android:visibility="invisible"
+                android:id="@+id/btn_xoa"
+                android:textColor="@color/white"
+                android:background="@drawable/bg_xoa"
+                android:layout_marginRight="10dp"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                android:text="x"
+                android:layout_width="20dp"
+                android:layout_height="20dp"/>
+        </RelativeLayout>
+        <androidx.appcompat.widget.SearchView
+            android:theme="@style/cursorStyle"
+            app:queryHint="Tìm kiếm"
+            app:searchIcon="@drawable/ic_search"
+            app:iconifiedByDefault="false"
+            app:queryBackground="@null"
+            android:background="@drawable/search_layout"
+            android:id="@+id/search_view"
+            android:layout_margin="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <ListView
+        android:dividerHeight="4dp"
+        android:divider="@color/gray_200"
+        android:padding="10dp"
+        android:visibility="invisible"
+        android:id="@+id/lv_timkiem"
+        android:background="@color/white"
+        android:layout_marginTop="4dp"
+        android:layout_below="@+id/ln_search"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</RelativeLayout>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_marginLeft="14dp"
+    android:layout_marginRight="14dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <RelativeLayout
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/category_shape"
+        android:id="@+id/rl_hinh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:scaleType="centerCrop"
+            android:id="@+id/iv_hinh"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:padding="8dp"
+            android:src="@drawable/trasua" />
+    </RelativeLayout>
+
+
+    <TextView
+        android:id="@+id/tv_ten"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rl_hinh"
+        android:layout_centerHorizontal="true"
+        android:text="Trà sữa"
+        android:textColor="@color/gray_700"
+        android:textSize="10sp" />
+</RelativeLayout>

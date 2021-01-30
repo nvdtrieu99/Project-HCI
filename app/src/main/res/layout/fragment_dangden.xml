@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/gray_200"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cv_dangden"
+        android:background="@color/gray_200"
+        android:layout_marginTop="200dp"
+        android:layout_centerHorizontal="true"
+        app:cardElevation="20dp"
+        app:cardCornerRadius="100pt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:src="@drawable/note"
+            android:layout_width="200dp"
+            android:layout_height="200dp"/>
+    </androidx.cardview.widget.CardView>
+
+    <ListView
+        android:divider="@color/gray_200"
+        android:dividerHeight="4dp"
+        android:background="@color/white"
+        android:padding="10dp"
+        android:id="@+id/lv_dangden"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+    
+</RelativeLayout>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:background="@color/gray_200"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout
+        android:id="@+id/rl_yeuthich"
+        android:background="@color/white"
+        android:padding="18dp"
+        android:layout_alignParentTop="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:textSize="18sp"
+            android:textColor="#4a4a4a"
+            android:layout_centerInParent="true"
+            android:text="Yêu thích"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/rl_nd_yt_0"
+        android:background="@color/white"
+        android:layout_marginTop="2dp"
+        android:layout_below="@+id/rl_yeuthich"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_margin="10dp"
+            android:text="Không có dữ liệu"
+            android:textColor="@color/gray_700"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/rl_nd_yt_1"
+        android:visibility="invisible"
+        android:layout_marginTop="2dp"
+        android:background="@color/white"
+        android:layout_below="@+id/rl_yeuthich"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:textStyle="bold"
+            android:textColor="#4a4a4a"
+            android:padding="8dp"
+            android:text="Mới lưu"
+            android:id="@+id/tv_moiluu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <ListView
+            android:background="@color/gray_200"
+            android:layout_marginTop="4dp"
+            android:layout_below="@+id/tv_moiluu"
+            android:id="@+id/lv_moiluu"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    </RelativeLayout>
+</RelativeLayout>
